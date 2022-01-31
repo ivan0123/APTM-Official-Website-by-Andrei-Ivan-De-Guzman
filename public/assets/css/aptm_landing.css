@@ -1,0 +1,84 @@
+/* custom css */
+
+/* home */
+.btn:hover {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+    -webkit-transition: all .5s;
+    transition: all .5s
+}
+
+/* .navbar-expand-lg {
+    position: fixed;
+    top: 0;
+    padding: 5px 470px 5px 100px;
+    background-color: #7B74F2;
+    z-index: 1;
+    width: 100%;
+} */
+
+.btn_nav {
+    width: 500px;
+    margin-left: 260px;
+}
+
+.btn_register {
+    margin-right: 5px;
+}
+
+.hero-section .descrip {
+    width: 500px;
+    text-align: justify;
+}
+
+/* about */
+#about {
+    background-image: url("../images/cover-5.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#about .logo {
+    width: 20%;
+    position: static;
+    margin: auto;
+}
+
+#about .descrip {
+    text-align: center;
+    padding: 0 20%;
+}
+/* x */
+
+@media(max-width: 1028px){
+    .navbar-expand-lg {
+        padding: 10px 10px 10px 20px;
+        width: 100%;   
+        text-align: left;     
+    }
+
+    .hero-section .title {
+        text-align: center;
+        width: 100%;
+        padding: 20px 20px;
+    }
+
+    .hero-section .descrip {
+        width: 100%;
+        text-align: center;
+    }
+
+    .vec_home {
+        width: 40%;
+        margin-left: 50px;
+    }
+
+    #about .logo {
+        width: 40%;
+    }
+    
+    #about .descrip {
+        padding: 0 10%;
+    }
+}

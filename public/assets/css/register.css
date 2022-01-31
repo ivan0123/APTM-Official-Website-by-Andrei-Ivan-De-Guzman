@@ -1,0 +1,42 @@
+body {
+    background-color: #FAFBFE;
+}
+
+.wave-bg {
+    width: 100%;
+    position: absolute;
+    top: -180px;
+    z-index: -1;
+}
+
+.page-title-box {
+    margin-right: 130px;
+}
+
+.card {
+    opacity: 90%;
+    z-index: 1;
+}
+
+form {
+    opacity: 100%;
+}
+
+.logo-dark {
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+.b_svg {
+    width: 10%;
+}
+
+@media(max-width: 1028px){
+    .wave-bg {
+        width: 200%;
+        position: absolute;
+        top: -0px;
+        z-index: -1;
+    }
+}
