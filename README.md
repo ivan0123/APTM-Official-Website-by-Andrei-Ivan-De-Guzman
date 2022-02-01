@@ -14,7 +14,7 @@ The Association of Professional Teachers in MIMAROPA (APTM) Official Website is 
 
 The Association of Professional Teachers in MIMAROPA (APTM) is a regional professional association consisting of all Philippine Public School Teachers in DepEd MIMAROPA-Region, vigorously interested in the promotion of sustainable financial and socio-economic progress, as well as feasible intellectual and skills advancement.
 
-# I used Codeigniter Framework to developed this website.
+## I used Codeigniter Framework to developed this website.
 
 # CodeIgniter 4 Framework
 
